@@ -1,8 +1,19 @@
 .homepage {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
   background: url(../../assets/images/wallpaper.webp) center / auto no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.tile_grid {
+  display: flex;
+  position: relative;
+  width: 1035px;
+  align-items: center;
+  padding-block-start: 40px;
+  padding-block-end: 95px;
+  box-sizing: border-box;
 }
